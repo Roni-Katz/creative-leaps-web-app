@@ -1,0 +1,29 @@
+{
+  "name": "leaps-tablet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-uglify": "^3.0.2",
+    "npm": "^8.12.1",
+    "pump": "^3.0.0",
+    "rollup": "^2.75.6",
+    "rollup-plugin-babel": "^3.0.7",
+    "url-search-params-polyfill": "^8.1.1"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "dist": "gulp dist",
+    "watch": "gulp watch"
+  },
+  "author": "Jesse Himmelstein",
+  "license": "MIT"
+}
